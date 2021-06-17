@@ -1,0 +1,1 @@
+. flask_setup/bin/activate
