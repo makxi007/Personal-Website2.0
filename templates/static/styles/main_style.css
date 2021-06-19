@@ -2,6 +2,8 @@
 
 /*------------HEADER------------*/
 
+/*------upper header------*/
+
 header{
 	background-image: url( '../img/background3.jpg' );
 	width: 100%;
@@ -11,16 +13,62 @@ header{
 	background-size: cover;
 }
 
-.header-center{
-	padding: 3rem;
+.header-up{
+	padding-top: 2rem ;
 }
+
+.header-up-nav .nav-link{
+	padding: .25rem 0;
+	margin-left: 1rem;
+	font-weight: 700;
+	font-size: 20px;
+	color: #FFF;
+}
+
+
+/*------center header------*/
+
+
+.header-center{
+	padding: 5rem;
+}
+
+.header-center-title{
+
+}
+
+.header-center-text{
+	font-size: 30px;
+}
+
+
 
 /*------------MAIN/BODY------------*/
 
 .main-about{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.main-about-desc{
+	padding-bottom: 3rem;
+}
+
+.main-about{
 	background-color: #191919;
+	color: #FFF;
+}
+
+.main-about-title{
+	font-size: 20px;
+	font-weight: 700;
 }
 
 
 
 /*------------FOOTER------------*/
+
+.footer{
+	background-color: #191919;
+	color: #FFF;
+}
