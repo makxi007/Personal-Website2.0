@@ -11,12 +11,31 @@ header{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> page-contact2
 }
 
 .header-up{
-	padding-top: 2rem ;
+	padding-top: 1.5rem ;
 }
+
+.header-up-cont{
+	padding-bottom: 1rem;
+}
+
+/* FIXED NAVBAR */
+.nav-colored{
+	background-color: #202020;
+	transition: 0.3s 200ms ease-in-out;
+}
+
+.nav-transparent{
+	background-color: transparent;
+	transition: 0.3s 200ms ease-in-out;
+}
+
 
 .header-up-nav .nav-link{
 	padding: .25rem 0;
@@ -30,7 +49,11 @@ header{
 /*------Second (center) header------*/
 
 .second_header{
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> page-contact2
 }
 
 .header-center{
