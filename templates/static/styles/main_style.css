@@ -24,13 +24,15 @@ header{
 
 /* FIXED NAVBAR */
 .nav-colored{
-	background-color: #202020;
+	background-color: #FFF;
 	transition: 0.3s 200ms ease-in-out;
+	color: black;
 }
 
 .nav-transparent{
 	background-color: transparent;
 	transition: 0.3s 200ms ease-in-out;
+	color: white;
 }
 
 
@@ -50,7 +52,7 @@ header{
 }
 
 .header-center{
-	padding: 5rem;
+	padding: 10rem;
 }
 
 .header-center-title{
