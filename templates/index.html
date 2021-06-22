@@ -33,13 +33,29 @@
 				<div class="row justify-content-center">
 					<div class="col-md-6 mx-auto text-center" align="center">
 						<h1 class="text-light header-center-title">Max</h1>
-						<p class="text-light header-center-text">Self-learning software engineering</p>
+						<p class="text-light header-center-text">Self-learning software engineering / web developer</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	
 	</header>
+
+	<!--<div class="second_header">
+		<div class="header-center">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-6 mx-auto text-center" align="center">
+						<h1 class="text-light header-center-title">Max</h1>
+						<p class="text-light header-center-text">Self-learning software engineering / web developer</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	-->
+
+	{% block main_content %}
 
 	<main class="main">
 		<div class="main-about ">
@@ -88,11 +104,24 @@
 			</div>
 		</div>
 	</main>
+	{% endblock %}
 
 	<footer class="footer">
 		<div class="container">
-				<div class="row">
-					<h1>I amma footer</h1>
+				<div class="row justify-content-center">
+					<div class="col-md-6 text-center footer_title">
+					<h2>CONNECT</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<!--<div class="col-md-6">-->
+						<div class="col-md-1 text-center">
+							<img class="image_social" src="static/img/icons/github_icon.jpg" alt="logo" width="64" height="64">
+						</div>
+						<div class="col-md-1 text-center">
+							<img class="image_social" src="static/img/icons/gmail_icon.jpg" alt="logo" width="64" height="64">
+						<!--</div>-->
+					</div>
 				</div>
 			</div>
 	</footer>

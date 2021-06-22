@@ -26,8 +26,11 @@ header{
 }
 
 
-/*------center header------*/
+/*------Second(center) header------*/
 
+.second_header{
+	
+}
 
 .header-center{
 	padding: 5rem;
@@ -71,4 +74,14 @@ header{
 .footer{
 	background-color: #191919;
 	color: #FFF;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.footer_title{
+	
+}
+
+.image_social{
+	cursor: pointer;
 }
