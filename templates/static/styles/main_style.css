@@ -14,8 +14,22 @@ header{
 }
 
 .header-up{
-	padding-top: 2rem ;
-	opacity:  0.6;
+	padding-top: 1.5rem ;
+}
+
+.header-up-cont{
+	padding-bottom: 1rem;
+}
+
+/* FIXED NAVBAR */
+.nav-colored{
+	background-color: #202020;
+	transition: 0.3s 200ms ease-in-out;
+}
+
+.nav-transparent{
+	background-color: transparent;
+	transition: 0.3s 200ms ease-in-out;
 }
 
 
@@ -31,6 +45,7 @@ header{
 /*------Second(center) header------*/
 
 .second_header{
+
 }
 
 .header-center{
